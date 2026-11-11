@@ -20,10 +20,7 @@ let package = Package(
             from: "0.9.0"
         ),
         // Useful data structures
-        .package(
-            url: "https://github.com/apple/swift-collections.git",
-            .upToNextMajor(from: "1.0.0")
-        ),
+        .package(path: "../swift-collections"),
         // SwiftLint
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",
